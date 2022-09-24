@@ -1,0 +1,420 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.pd--normal {
+    padding: 8px 16px;
+}
+
+.mbt-16 {
+    margin: 16px 0;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
+
+.section--container {
+    padding: 32px 200px;
+}
+
+.section--container--large {
+    padding: 64px 200px;
+}
+
+.text--grey {
+    color: #707070
+}
+
+.text--red {
+    color: red;
+}
+
+.text--black {
+    color: black;
+}
+
+/* !header */
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF08D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 99;
+}
+
+.header__brandside,
+.header__navbar {
+    display: flex;
+    align-items: center;
+}
+
+.header__brandside {
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.header__icon {
+    text-transform: uppercase;
+    color: #0044FF;
+    font-size: 2.625rem;
+}
+
+.header__language,
+.header__price {
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.header__price {
+    text-transform: uppercase;
+
+}
+
+.header__language {
+    text-transform: capitalize;
+}
+
+.header__navbar {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.navbar__item {
+    list-style: none;
+}
+
+.navbar__link {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar__item+.navbar__item {
+    margin-left: 16px;
+}
+
+.navbar__link:hover {
+    opacity: 0.8;
+}
+
+.signin {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    text-transform: capitalize;
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* !banner */
+#banner {
+    position: relative;
+    width: 100%;
+    padding-top: 45%;
+    background: url(/access/img/paris-banner.jpg) center bottom / cover no-repeat;
+
+}
+
+.banner__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__heading {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 16px;
+    text-shadow: 1px 0px 42px rgba(0, 0, 0, 1);
+}
+
+.banner__form {
+    display: flex;
+    column-gap: 5%;
+}
+
+.form__input {
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+.form__search {
+    width: 15%;
+    color: white;
+    background-color: #B8B4B4;
+    outline: none;
+    font-size: 1.75rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#home {}
+
+.travel--large {
+    display: flex;
+    column-gap: 32px;
+}
+
+.item__img {
+    flex: 3;
+    width: 100%;
+    height: 0;
+    padding-top: 40%;
+    background: #0044FF center center / cover no-repeat;
+}
+
+.item__img--small {
+    padding-top: 60%;
+    background-image: url(/access/img/travel__img-royalton.webp);
+}
+
+.img--paris {
+    background-image: url(/access/img/timesqare.jpg);
+}
+
+.travel__desc {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.travel__heading,
+.travel__slogan {
+    margin: 12px 0;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.travel__heading {}
+
+.travel__heading--s {
+    font-size: 2.625rem;
+    margin: 44px 0 8px;
+}
+
+.travel__slogan {
+    font-size: 2rem;
+    color: red;
+}
+
+.travel__msg {}
+
+.travel--mini {
+    display: flex;
+    column-gap: 24px;
+
+}
+
+.mini__item {
+    flex: 1;
+}
+
+.img--ameritania {
+    background-image: url(/access/img/ameritania.jpg);
+}
+
+.img--doubletree {
+    background-image: url(/access/img/doubletree-times-square.jpg);
+}
+
+.img--pod {
+    background-image: url(/access/img/pod.jpg);
+}
+
+.img--italia1 {
+    background-image: url(/access/img/italia--big2.jpg);
+}
+
+.img--italia2 {
+    background-image: url(/access/img/italia--big.jpg);
+}
+
+.mini__desc {
+    font-weight: bold;
+}
+
+.place__container {
+    display: flex;
+    column-gap: 24px;
+}
+
+.place__container+.place__container {
+    margin-top: 24px;
+}
+
+.place__banner {}
+
+.place__sidebanner {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sidebanner__item {}
+
+.img--colosseum {
+    background-image: url(/access/img/closseum-s.webp);
+}
+
+.img--pantheon {
+    background-image: url(/access/img/phatheon-s.jpg);
+}
+
+.img--piazza {
+    background-image: url(/access/img/piazza-s.jpg);
+}
+
+.img--petersquare {
+    background-image: url(/access/img/petersqare-s.jpg);
+}
+
+.sidebanner__heading {
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+#about {
+    margin-top: 64px;
+}
+
+.about__heading,
+.place__heading {
+    text-align: center;
+    font-size: 2.625rem;
+    margin-bottom: 42px;
+    text-transform: capitalize;
+}
+
+.about__feature {
+    display: flex;
+    column-gap: 52px;
+}
+
+.feature__item {
+    min-height: 200px;
+    border-radius: 16px;
+    padding: 28px 24px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.24);
+}
+
+.feature__icon {
+    margin-bottom: 24px;
+    font-size: 4rem;
+}
+
+.feature__heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+
+.feature__desc {}
+
+#place {
+    margin-top: 72px;
+}
+
+.place__navigation {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list__item {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.list__item button {
+    background: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.list__item button:hover {
+    opacity: 0.7;
+}
+
+.location__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5rem;
+    row-gap: 64px;
+    font-weight: bold;
+
+}
+
+.location__item {}
+
+.item__img {}
+
+.location__name {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.location__desc {
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+
+.location__rate {
+    font-size: 1.3rem;
+}
+
+.location__distance {}
+
+.img--bordered {
+    border-radius: 20px;
+}
+
+.location__list .img--singapore {
+    background-image: url(/access/img/singapore-1.jpg);
+    animation: fadeInImg 0.4s ease;
+}
+
+@keyframes fadeInImg {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#blog {}
+
+#footer {}
