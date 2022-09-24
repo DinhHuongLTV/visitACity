@@ -125,7 +125,7 @@ html {
     position: relative;
     width: 100%;
     padding-top: 45%;
-    background: url(/access/img/paris-banner.jpg) center bottom / cover no-repeat;
+    background: url(./access/img/paris-banner.jpg) center bottom / cover no-repeat;
 
 }
 
@@ -191,11 +191,11 @@ html {
 
 .item__img--small {
     padding-top: 60%;
-    background-image: url(/access/img/travel__img-royalton.webp);
+    background-image: url(./access/img/travel__img-royalton.webp);
 }
 
 .img--paris {
-    background-image: url(/access/img/timesqare.jpg);
+    background-image: url(./access/img/timesqare.jpg);
 }
 
 .travel__desc {
@@ -237,23 +237,23 @@ html {
 }
 
 .img--ameritania {
-    background-image: url(/access/img/ameritania.jpg);
+    background-image: url(./access/img/ameritania.jpg);
 }
 
 .img--doubletree {
-    background-image: url(/access/img/doubletree-times-square.jpg);
+    background-image: url(./access/img/doubletree-times-square.jpg);
 }
 
 .img--pod {
-    background-image: url(/access/img/pod.jpg);
+    background-image: url(./access/img/pod.jpg);
 }
 
 .img--italia1 {
-    background-image: url(/access/img/italia--big2.jpg);
+    background-image: url(./access/img/italia--big2.jpg);
 }
 
 .img--italia2 {
-    background-image: url(/access/img/italia--big.jpg);
+    background-image: url(./access/img/italia--big.jpg);
 }
 
 .mini__desc {
@@ -281,19 +281,19 @@ html {
 .sidebanner__item {}
 
 .img--colosseum {
-    background-image: url(/access/img/closseum-s.webp);
+    background-image: url(./access/img/closseum-s.webp);
 }
 
 .img--pantheon {
-    background-image: url(/access/img/phatheon-s.jpg);
+    background-image: url(./access/img/phatheon-s.jpg);
 }
 
 .img--piazza {
-    background-image: url(/access/img/piazza-s.jpg);
+    background-image: url(./access/img/piazza-s.jpg);
 }
 
 .img--petersquare {
-    background-image: url(/access/img/petersqare-s.jpg);
+    background-image: url(./access/img/petersqare-s.jpg);
 }
 
 .sidebanner__heading {
@@ -401,7 +401,7 @@ html {
 }
 
 .location__list .img--singapore {
-    background-image: url(/access/img/singapore-1.jpg);
+    background-image: url(./access/img/singapore-1.jpg);
     animation: fadeInImg 0.4s ease;
 }
 

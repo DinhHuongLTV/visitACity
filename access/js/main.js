@@ -7,10 +7,10 @@ let bannerHeadingWidth = document.querySelector('.banner__heading').offsetWidth;
 document.querySelector('.banner__form').style.width = `${bannerHeadingWidth}px`;
 
 // ! change img location list
-let url1 = `url(/access/img/singapore-1.jpg)`;
-let url2 = `url(/access/img/singapore-2.jpg)`;
-let url3 = `url(/access/img/singapore-3.jpg)`;
-let url4 = `url(/access/img/singapore-4.jpg)`;
+let url1 = `url(./access/img/singapore-1.jpg)`;
+let url2 = `url(./access/img/singapore-2.jpg)`;
+let url3 = `url(./access/img/singapore-3.jpg)`;
+let url4 = `url(./access/img/singapore-4.jpg)`;
 
 const changeImg = (url) => {
     for (element of obj_lacationImg) {
